@@ -1,0 +1,35 @@
+
+// //Simple
+// $list: (
+//   normal,
+//   bold,
+//   italic
+// );
+// // @each $i in(normal,bold,italic) {
+// //   .#{$i} {
+// //     font-weight: $i;
+// //   }
+// // }
+
+// @each $i in$list {
+//     .#{$i} {
+//       font-weight: $i;
+//     }
+//   }
+
+$colors: yellow, red, purple, green;
+
+@each $color in $colors{
+    .#{$color} {
+        background-color: $color;
+    }
+}
+
+body{
+     display:  flex;
+}
+div{
+    width: 100vh;
+    height: 100vh;
+    margin: 10px;
+}

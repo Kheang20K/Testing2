@@ -1,0 +1,25 @@
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.green {
+  background-color: green;
+}
+
+body {
+  display: flex;
+}
+
+div {
+  width: 100vh;
+  height: 100vh;
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */
