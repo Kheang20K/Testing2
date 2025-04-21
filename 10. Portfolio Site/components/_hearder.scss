@@ -1,0 +1,56 @@
+.frame-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    position: relative;
+
+    .gradient{
+        width: 72%;
+        height: 76%;
+        position: absolute;
+        bottom: 74px;
+        border-radius: 20px;
+        background: $gradient-color;
+    }
+    header{
+        width: 60%;
+        height: 70%;
+        margin-top: 0rem;
+        background-image: url(https://i.pinimg.com/736x/e8/e6/41/e8e64141f4c0ae39c32f9701ccea9a2e.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        border-radius: 10p;
+    }
+
+
+    @media screen and(max-width: 700px) {
+        background-position: center;
+        
+        
+    }
+    .social{
+        height: 100%;
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        margin-left: 10px;
+        text-align: center;
+        .fa-brands{
+            margin-top: 20px;
+        }
+        .line{
+            margin: 0 auto;
+            width: 4px;
+            border-radius: 10px;
+            height: 20%;
+            background: #291491;
+            margin-top: 20px;
+        }
+    }
+    
+}

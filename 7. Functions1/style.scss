@@ -1,0 +1,69 @@
+// .selector{
+
+//     //MATH
+//     padding:max(10px,50px,20px,60px,2px);
+//     padding:min(10px,50px,20px,60px,2px);
+//     padding: random();
+//     padding: random();
+//     padding: unit(20em);
+//     padding: unitless(20);
+// }
+
+// .selectorS{
+//     //STRING FUNCTIONS
+
+//     font-family:quote(arial);
+//     font-family: unquote("arial");
+//     font-family: to-upper-case($string: "hunx");
+//     font-family: to-lower-case($string: "HUNX");
+//     font-family: str-length($string: "hunx");
+//     font-family: str-index($string: "Hunx", $substring: "s");
+//     font-family: unique-id();
+// }
+
+//COLOR FUNCTIONS
+// $inital-color: blue;
+
+// .container{
+//     width: 600px;
+//     height: 100px;
+//     background: darken($inital-color,40);
+
+// }
+
+//List---------------------------
+// $list: 20px 10px 30px;
+// .selector1{
+//     padding:length($list);
+//     padding:nth($list,2);
+//     padding: set-nth($list: 3,2em);
+//     padding: join((10px,20px,30px),(40px,50px,60px));
+//     padding: join((10px,20px,30px),(40px,50px,60px),space);
+//     padding: append($list, 60px);
+// }
+
+
+//Map---------------------------
+// $font-weights:(
+//     "regular":400,
+//     "medium":500,
+//     "bold":700,
+// );
+// .selector2{
+//     font-weight: map-get($font-weights, "medium");
+//     font-weight: map-keys($font-weights);
+//     font-weight: map-values($font-weights);
+//     font-weight: map-has-key($font-weights, "bold");
+// }
+
+
+//CREATING CUSTOM FUNCTION
+@function randomColor(){
+    @return rgb(random(255),random(255),random(255));
+}
+
+.selector4{
+    width: 100px;
+    height: 100px;
+    background: randomColor();
+}

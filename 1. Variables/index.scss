@@ -1,0 +1,61 @@
+// $color: crimson;
+// body{
+//     background-color: $color;
+// }
+
+// $redColor:red;
+// $greenColor:green;
+// $blueColor:blue;
+
+// body{
+//     background-color: $greenColor;
+// }
+// header{
+//     height: 50vh;
+//     background: $blueColor;
+// }
+
+//variable
+$main-color: #c8deff;
+$color-one: red;
+$color-two: blue;
+$color-three: green;
+$color-four: yellow;
+body{
+    background: linear-gradient(#a5aae9cc,#8c9af6);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background: $main-color;
+    max-width: 280px;
+    padding: 20px;
+    line-height: 24px;
+    margin: 4rem;
+    position: relative;
+}
+.img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 5px solid white;
+    position: absolute;
+    right: -40px;
+    top: -40px;}
+.img-one{
+    background: $color-one ;
+}
+.img-two{
+    background: $color-two ;
+}
+.img-three{
+    background: $color-three ;
+}
+.img-four{
+    background: $color-four ;
+}

@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(rgba(165, 170, 233, 0.8), #8c9af6);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #c8deff;
+  max-width: 280px;
+  padding: 20px;
+  line-height: 24px;
+  margin: 4rem;
+  position: relative;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 5px solid white;
+  position: absolute;
+  right: -40px;
+  top: -40px;
+}
+
+.img-one {
+  background: red;
+}
+
+.img-two {
+  background: blue;
+}
+
+.img-three {
+  background: green;
+}
+
+.img-four {
+  background: yellow;
+}/*# sourceMappingURL=index.css.map */
